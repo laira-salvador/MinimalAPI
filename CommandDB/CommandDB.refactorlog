@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a7c846cd-1e50-4198-bb3b-1a2b22032208" ChangeDateTime="10/03/2022 16:34:01">
+    <Property Name="ElementName" Value="[dbo].[Command].[Platfrom]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Command]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Platform" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7a07cf7f-2b0f-4e59-9f99-304636846e2b" ChangeDateTime="10/03/2022 16:34:20">
+    <Property Name="ElementName" Value="[dbo].[Command].[Platform]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Command]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="316927c1-cf0d-4b9c-a3db-9f2177686b03" ChangeDateTime="10/03/2022 16:34:52">
+    <Property Name="ElementName" Value="[dbo].[Command].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Command]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Platform" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="882055fd-3499-4507-94c4-da72c925f93e" ChangeDateTime="10/03/2022 16:35:06">
+    <Property Name="ElementName" Value="[dbo].[Command].[Command Description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Command]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CommandDesc" />
+  </Operation>
+</Operations>
